@@ -24,7 +24,7 @@ Method: Post
 Path: [http://localhost:8080/users ](http://localhost:8080//users)
 
 Method: Put
-## Delete
+## Delete User
 Path: [http://localhost:8080/users ](http://localhost:8080//users)
 
 Method: Delete
