@@ -15,7 +15,7 @@ var (
 	user     = "postgres"
 	password = "p4ssw0rd"
 	dbPort   = "5432"
-	dbname   = "project"
+	dbname   = "mygarm"
 	db       *gorm.DB
 	err      error
 )

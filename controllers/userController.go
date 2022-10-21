@@ -41,6 +41,7 @@ func UserRegister(c *gin.Context) {
 		"id":       User.ID,
 		"username": User.Username,
 	})
+
 }
 
 func UserLogin(c *gin.Context) {
@@ -82,6 +83,26 @@ func UserLogin(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
 		"token": token,
 	})
+}
+
+func UserGet(c *gin.Context) {
+	db := database.GetDB()
+	userData := c.MustGet("userData").(jwt.MapClaims)
+
+	User := models.User{}
+	UserID := uint(userData["id"].(float64))
+	User.ID = UserID
+
+	db.Where("id = ?", UserID).First(&User)
+
+	c.JSON(http.StatusOK, gin.H{
+		"age":        User.Age,
+		"email":      User.Email,
+		"id":         User.ID,
+		"username":   User.Username,
+		"updated_at": User.UpdatedAt,
+	})
+
 }
 
 func UserUpdate(c *gin.Context) {

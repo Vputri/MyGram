@@ -3,6 +3,7 @@ package models
 import (
 	"middleware/helpers"
 
+	//"github.com/asaskevich/govalidator"
 	"gorm.io/gorm"
 )
 
@@ -25,6 +26,20 @@ func (u *User) BeforeCreate(tx *gorm.DB) (err error) {
 	//}
 
 	u.Password = helpers.HashPass(u.Password)
+	err = nil
+	return
+}
+
+func (u *User) BeforeUpdate(tx *gorm.DB) (err error) {
+
+	//_, errCreate := govalidator.ValidateStruct(u)
+
+	//if errCreate != nil {
+	//	err = errCreate
+	//	return
+	//}
+	u.Password = helpers.HashPass(u.Password)
+
 	err = nil
 	return
 }

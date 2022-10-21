@@ -9,7 +9,7 @@ type Comment struct {
 	GormModel
 	UserID  uint
 	User    *User
-	PhotoID uint
+	PhotoID uint `json:"photo_id"`
 	Photo   *Photo
 	Message string `gorm:"not null" json:"message" valid:"required~message is required"`
 }
