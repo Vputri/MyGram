@@ -56,7 +56,7 @@ func GetAllSocialMedia(c *gin.Context) {
 	}
 
 	db.Preload("User", func(db *gorm.DB) *gorm.DB {
-		return db.Select("ID", "Email", "Username")
+		return db.Select("ID", "Username")
 	}).Find(&SocialMedias)
 
 	c.JSON(http.StatusOK, SocialMedias)
@@ -95,6 +95,7 @@ func SocialMediaUpdate(c *gin.Context) {
 		"name":             SocialMedia.Name,
 		"social_media_url": SocialMedia.SocialMediaUrl,
 		"user_id":          SocialMedia.UserID,
+		"update_at":        SocialMedia.UpdatedAt,
 	})
 }
 
