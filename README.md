@@ -2,10 +2,10 @@
 
 ## About
 Aplikasi untuk menyimpan foto dan membuat comment foto orang lain
----
 
 ## Library
-
+- Gorm
+- Gin
 
 ## Endpoints
 ### Register
