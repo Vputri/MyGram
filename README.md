@@ -8,8 +8,8 @@ Path: [https://mygarm.herokuapp.com/users/register ](https://mygarm.herokuapp.co
 
 Method: Post
 ```
-
 ### Login
+```
 Path: [https://mygarm.herokuapp.com/users/login ](https://mygarm.herokuapp.com/users/login)
 
 Method: Post   
