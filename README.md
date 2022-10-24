@@ -89,4 +89,16 @@ PUT https://mygarm.herokuapp.com/socialmedias/:socialMediaId
 ```
 DELETE https://mygarm.herokuapp.com/:socialMediaId
 ```
+## Install
+```
+- Git clone https://github.com/vikaputri/MyGram.git 
+- Install :
+go get github.com/asaskevich/govalidator
+go get github.com/dgrijalva/jwt-go
+go get github.com/gin-gonic/gin
+go get golang.org/x/crypto/bcrypt
+go get gorm.io/gorm  
+go get gorm.io/driver/postgres
+-Run : go run main.go
 
+```
