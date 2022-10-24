@@ -2,7 +2,7 @@
 Aplikasi untuk menyimpan foto dan membuat comment foto orang lain
 
 ## Register
-Path: [http://localhost:8080/users/register ](http://localhost:8080//users/register)'
+Path: [https://mygarm.herokuapp.com/users/register ](https://mygarm.herokuapp.com/users/register)'
 
 Method: Post
 
@@ -42,7 +42,7 @@ Response
 }
 ```
 ## Login
-Path: [http://localhost:8080/users/login ](http://localhost:8080//users/login)
+Path: [https://mygarm.herokuapp.com/users/login ](https://mygarm.herokuapp.com/users/login)
 
 Method: Post
 
@@ -73,7 +73,7 @@ Response
 ```
 
 ## Update User
-Path: [http://localhost:8080/users ](http://localhost:8080//users)
+Path: [https://mygarm.herokuapp.com/users ](https://mygarm.herokuapp.com/users)
 
 Method: Put
 
@@ -117,7 +117,7 @@ Response
 }
 ```
 ## Delete User
-Path: [http://localhost:8080/users ](http://localhost:8080//users)
+Path: [https://mygarm.herokuapp.com/users ](https://mygarm.herokuapp.com/users)
 
 Method: Delete
 
