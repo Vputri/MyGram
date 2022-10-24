@@ -11,11 +11,11 @@ import (
 )
 
 var (
-	host     = "localhost"
+	host     = "ec2-52-3-60-53.compute-1.amazonaws.com"
 	user     = "postgres"
-	password = "p4ssw0rd"
-	dbPort   = "5432"
-	dbname   = "mygarm"
+	password = "7P7Ia9JzEPlWJ9fwHoYl"
+	dbPort   = "5570"
+	dbname   = "railway"
 	db       *gorm.DB
 	err      error
 )
