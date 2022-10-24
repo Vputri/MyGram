@@ -100,6 +100,4 @@ go get golang.org/x/crypto/bcrypt
 go get gorm.io/gorm  
 go get gorm.io/driver/postgres
 ```
--Run : go run main.go
-
-```
+- Run : go run main.go
