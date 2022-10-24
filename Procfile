@@ -1,1 +1,1 @@
-web: bin/middleware
+web: middleware
