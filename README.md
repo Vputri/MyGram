@@ -1,4 +1,6 @@
-<h1 align="center"> Project (Scalable Web Service with Golang - DTS Kominfo) - MyGram</h1>
+<h2 align="center">Final Project</h2>
+<h2 align="center">Scalable Web Service with Golang - DTS Kominfo </h2>
+<h1 align="center"> MyGram</h1>
 
 ## About
 Aplikasi untuk menyimpan foto dan membuat comment foto orang lain
@@ -6,6 +8,15 @@ Aplikasi untuk menyimpan foto dan membuat comment foto orang lain
 ## Library
 - Gorm
 - Gin
+- jwt-go
+- govalidator
+- crypto
+
+## Database
+Postgress
+
+## Deployment
+Heroku
 
 ## Endpoints
 ### Register
