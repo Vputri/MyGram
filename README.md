@@ -4,33 +4,23 @@ Aplikasi untuk menyimpan foto dan membuat comment foto orang lain
 ## Endpoints
 ### Register
 ```
-Path: https://mygarm.herokuapp.com/users/register
-
-Method: Post
+POST https://mygarm.herokuapp.com/users/register
 ```
 ### Login
 ```
-Path: https://mygarm.herokuapp.com/users/login
-
-Method: Post   
+POST https://mygarm.herokuapp.com/users/login  
 ```
 ### Get User Data
 ```
-Path: https://mygarm.herokuapp.com/users
-
-Method: Get
+GET https://mygarm.herokuapp.com/users
 ```
 ### Update User Data
 ```
-Path: https://mygarm.herokuapp.com/users
-
-Method: Put
+PUT https://mygarm.herokuapp.com/users
 ```
 ### Delete User
 ```
-Path: https://mygarm.herokuapp.com/users
-
-Method: Delete
+DELETE https://mygarm.herokuapp.com/users
 ```
 
 
