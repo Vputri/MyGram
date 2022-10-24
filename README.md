@@ -1,6 +1,5 @@
-<h2 align="center">Final Project</h2>
-<h2 align="center">Scalable Web Service with Golang - DTS Kominfo </h2>
 <h1 align="center"> MyGram</h1>
+<h2 align="center"> Final Project - Scalable Web Service with Golang - DTS Kominfo </h2>
 
 ## About
 Aplikasi untuk menyimpan foto dan membuat comment foto orang lain
