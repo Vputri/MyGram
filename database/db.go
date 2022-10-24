@@ -11,18 +11,11 @@ import (
 )
 
 var (
-	//host     = "containers-us-west-105.railway.app"
-	//user     = "postgres"
-	//password = "7P7Ia9JzEPlWJ9fwHoYl"
-	//dbPort   = "5570"
-	//dbname   = "railway"
 	db  *gorm.DB
 	err error
 )
 
 func StartDB() {
-	//config := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable", host, user, password, dbname, dbPort)
-	//dsn := config
 	dsn := "postgres://kgxrojvgaloxxb:fa9aa0e2416b54f5efb873a2bc06547f429641b64a6a3129091830b38a17933e@ec2-52-3-60-53.compute-1.amazonaws.com:5432/d8qj9cc3do9814"
 	db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{})
 
