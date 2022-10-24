@@ -8,5 +8,5 @@ import (
 func main() {
 	database.StartDB()
 	r := router.StartApp()
-	r.Run("mygarm.herokuapp.com")
+	r.Run()
 }
